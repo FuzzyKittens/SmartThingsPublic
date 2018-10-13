@@ -39,7 +39,7 @@ metadata {
         }
 
         valueTile("battery", "device.battery", decoration: "flat", inactiveLabel: false, width: 2, height: 2) {
-            state "battery", label:'batt.', unit:"",
+            state "battery", label:'Btry', unit:"",
                     backgroundColors:[
                             [value: 0, color: "#bc2323"],
                             [value: 6, color: "#44b621"]
